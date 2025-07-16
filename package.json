@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "postcss ./tailwind.css -o ./styles.css",
     "tailwind:css": "postcss ./tailwind.css -o ./styles.css --watch",
     "dev": "npm run tailwind:css"
   },
