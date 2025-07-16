@@ -2,7 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "./",
   "installCommand": "npm install",
-  "functions": {},
   "headers": [
     {
       "source": "/pdf/(.*)",
