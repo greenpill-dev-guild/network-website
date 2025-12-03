@@ -815,6 +815,12 @@ video {
 .max-h-\[85vh\] {
   max-height: 85vh;
 }
+.max-h-\[240px\] {
+  max-height: 240px;
+}
+.max-h-\[242px\] {
+  max-height: 242px;
+}
 .w-1 {
   width: 0.25rem;
 }
@@ -2638,5 +2644,13 @@ video {
 
   .\32xl\:w-\[434px\] {
     width: 434px;
+  }
+
+  .\32xl\:w-\[203px\] {
+    width: 203px;
+  }
+
+  .\32xl\:w-\[204px\] {
+    width: 204px;
   }
 }
