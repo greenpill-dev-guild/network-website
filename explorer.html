@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Greenpill Knowledge Explorer</title>
-  <meta name="description"
-    content="Explore the Greenpill network, podcast, and overlap layers in 2D and 3D." />
+  <meta name="description" content="Explore the Greenpill network knowledge graph." />
 
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./custom-styles.css" />
@@ -25,10 +24,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://greenpill.network/explorer.html" />
   <meta property="og:image" content="https://greenpill.network/src/images/greenpill-twitter-card.png" />
-  <meta property="og:description" content="Explore the Greenpill network, podcast, and overlap layers in 2D and 3D." />
+  <meta property="og:description" content="Explore the Greenpill network knowledge graph." />
 
   <script src="https://unpkg.com/force-graph"></script>
-  <script src="https://unpkg.com/3d-force-graph"></script>
 </head>
 
 <body class="explorer-body">
@@ -50,70 +48,10 @@
     </header>
 
     <main class="explorer-main">
-      <section class="hero-panel">
-        <div class="hero-copy">
-          <p class="hero-kicker">Two layers, one explorer</p>
-          <h1 class="hero-title">See the network, the podcast, and the bridges between them.</h1>
-          <p class="hero-summary">
-            Start with the overlap view to understand where Greenpill’s live network and media surface already reinforce
-            each other, then expand into the full network or podcast layers when you want more detail.
-          </p>
-        </div>
-
-        <div class="hero-meta" id="hero-meta">
-          <div class="metric-card">
-            <span class="metric-label">Default view</span>
-            <strong>Bridge Layer</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Modes</span>
-            <strong>2D + 3D</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Best use</span>
-            <strong>Find support gaps and growth links</strong>
-          </div>
-        </div>
-      </section>
-
       <section class="control-panel">
         <div class="control-group">
           <span class="control-label">Dataset</span>
           <div class="pill-row" id="dataset-pills"></div>
-        </div>
-
-        <div class="control-group">
-          <span class="control-label">View</span>
-          <div class="pill-row" id="view-pills"></div>
-        </div>
-
-        <div class="control-group compact-group">
-          <label class="control-label" for="edge-mode">Edges</label>
-          <select id="edge-mode" class="control-select">
-            <option value="both">Structure + Capital</option>
-            <option value="structure">Structure only</option>
-            <option value="capital">Capital only</option>
-          </select>
-        </div>
-
-        <div class="control-group compact-group">
-          <label class="control-label" for="layer-filter">Layer</label>
-          <select id="layer-filter" class="control-select">
-            <option value="all">All layers</option>
-            <option value="bridge">Bridge only</option>
-            <option value="network">Network only</option>
-            <option value="podcast">Podcast only</option>
-          </select>
-        </div>
-
-        <div class="control-group compact-group">
-          <label class="control-label" for="node-type-filter">Node type</label>
-          <select id="node-type-filter" class="control-select"></select>
-        </div>
-
-        <div class="control-group compact-group">
-          <label class="control-label" for="capital-filter">Capital</label>
-          <select id="capital-filter" class="control-select"></select>
         </div>
 
         <form class="search-group" id="search-form">
@@ -134,7 +72,6 @@
               <p class="eyebrow">Interactive map</p>
               <h2 id="stage-title">Bridge View</h2>
             </div>
-            <div class="stage-stats" id="stage-stats"></div>
           </div>
 
           <div class="legend-bar">
@@ -144,15 +81,10 @@
             <span class="legend-item"><i class="legend-dot edge-capital"></i>Capital flow</span>
           </div>
 
-          <div class="view-hint" id="view-hint"></div>
-
           <div class="graph-wrap" id="graph-wrap">
-            <div class="graph-surface active" id="graph-2d"></div>
-            <div class="graph-surface" id="graph-3d"></div>
+            <div class="graph-surface" id="graph-2d"></div>
             <div class="graph-empty hidden" id="graph-empty">No nodes match the current filters.</div>
           </div>
-
-          <div class="dataset-meta" id="dataset-meta"></div>
         </article>
 
         <aside class="inspector-card">
@@ -165,32 +97,6 @@
           </div>
           <div class="inspector-body" id="inspector-body"></div>
         </aside>
-      </section>
-
-      <section class="support-grid">
-        <article class="support-card">
-          <p class="eyebrow">How to read it</p>
-          <h3>Start narrow, then expand.</h3>
-          <p>
-            Use <strong>Bridge View</strong> to spot where the podcast and network already reinforce each other. Switch
-            to <strong>Merged Universe</strong> only when you want the full context.
-          </p>
-        </article>
-
-        <article class="support-card">
-          <p class="eyebrow">What to look for</p>
-          <h3>Support gaps and adjacency wins.</h3>
-          <p>
-            Focus on nodes where the podcast already has reach but the network has weak structural follow-through, or
-            where the network is active but the podcast is not amplifying it yet.
-          </p>
-        </article>
-
-        <article class="support-card" id="resource-card">
-          <p class="eyebrow">Source links</p>
-          <h3>Jump straight to the data and research pack.</h3>
-          <div class="resource-links" id="resource-links"></div>
-        </article>
       </section>
     </main>
   </div>

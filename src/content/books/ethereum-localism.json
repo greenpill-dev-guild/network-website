@@ -1,0 +1,14 @@
+{
+  "title": "Ethereum Localism",
+  "description": "Ethereum Localism is a celebration of the web3 movement exploring how we can fund what matters locally.",
+  "image": "/images/ethereum-localism.png",
+  "imageAlt": "Ethereum Localism book cover",
+  "imageWidth": 204,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/ethereum-localism.pdf",
+  "formats": [],
+  "translations": [],
+  "group": "main",
+  "sortOrder": 2
+}

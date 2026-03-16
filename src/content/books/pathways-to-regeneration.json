@@ -1,0 +1,19 @@
+{
+  "title": "Pathways to Regeneration",
+  "description": "Pathways to regeneration is an essential bridge between historical wisdom and the transformative potential of modern economic technologies.",
+  "image": "/images/pathways-to-regeneration-cover.png",
+  "imageAlt": "pathways to regeneration book cover",
+  "imageWidth": 200,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/pathways-to-regeneration.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/bookstore/invited/10642188/2862ac3ac246b6507e8eaad94ef704970cd01125"
+    }
+  ],
+  "translations": [],
+  "group": "main",
+  "sortOrder": 1
+}

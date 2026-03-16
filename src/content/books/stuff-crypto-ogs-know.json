@@ -1,0 +1,19 @@
+{
+  "title": "Stuff Crypto OGs Know",
+  "description": "Stuff Crypto OGs know v0 is teaching people how to survive, thrive, & regenerate in the crypto ecosystem.",
+  "image": "/images/scok.png",
+  "imageAlt": "Stuff Crypto Ogs Know book cover",
+  "imageWidth": 244,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/Crypto_OG_Book.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/b/11476889-stuff-crypto-ogs-know"
+    }
+  ],
+  "translations": [],
+  "group": "bonus",
+  "sortOrder": 12
+}

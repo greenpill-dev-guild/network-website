@@ -1,0 +1,19 @@
+{
+  "title": "Future History of the Open Internet",
+  "description": "Future History of the Open Internet is a celebration of the history of Open Source Software & how it proved that peer to peer coordination is powerful.",
+  "image": "/images/fhotoi.png",
+  "imageAlt": "Future History of Open Internet book cover",
+  "imageWidth": 244,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/the-future-history-of-the-open-internet.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/b/11120683-future-history-of-the-open-internet"
+    }
+  ],
+  "translations": [],
+  "group": "bonus",
+  "sortOrder": 9
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Onchain Capital Allocation V2",
+  "description": "Onchain Capital Allocation Volume 2 explores deeper into capital allocation mechanisms.",
+  "image": "/images/allobook-v2.png",
+  "imageAlt": "Onchain Capital Allocation book cover v2",
+  "imageWidth": 200,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/onchain-capital-allocation-v2.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/b/12458862-onchain-capital-allocation-handbook-volume-2-expl"
+    }
+  ],
+  "translations": [],
+  "group": "main",
+  "sortOrder": 5
+}

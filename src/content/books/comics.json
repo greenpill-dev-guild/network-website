@@ -1,0 +1,39 @@
+{
+  "title": "Comics",
+  "description": "The 'Ethereum for Public Goods' series is designed to entertain & inspire conversations about using web3 to fight Moloch - the God of Coordination Failure.",
+  "image": "/images/comic.png",
+  "imageAlt": "Comic Know book cover",
+  "imageWidth": 244,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/Comic1.pdf",
+  "formats": [
+    {
+      "label": "Comic 2",
+      "link": "/pdf/Comic2.pdf"
+    },
+    {
+      "label": "Comic 3",
+      "link": "/pdf/Comic3.pdf"
+    },
+    {
+      "label": "Comic 4",
+      "link": "/pdf/Comic4.pdf"
+    },
+    {
+      "label": "Comic 5",
+      "link": "/pdf/Comic5.pdf"
+    },
+    {
+      "label": "Comic 6",
+      "link": "/pdf/Comic6.pdf"
+    },
+    {
+      "label": "Comic 7",
+      "link": "/pdf/Comic7.pdf"
+    }
+  ],
+  "translations": [],
+  "group": "bonus",
+  "sortOrder": 10
+}

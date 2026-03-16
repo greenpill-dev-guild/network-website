@@ -1,0 +1,76 @@
+{
+  "title": "Greenpill v0",
+  "description": "Greenpill v0 is all about how crypto could regenerate the world.",
+  "image": "/images/greenpill-cover.png",
+  "imageAlt": "Greenpill book cover",
+  "imageWidth": 250,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/green-pill.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/bookstore/invited/9502747/c7ff865edc08edd6b595c5a9bf5bd613117953e7"
+    },
+    {
+      "label": "Hardcover",
+      "link": "https://www.blurb.com/b/11078160-greenpilled-regenerative-cryptoeconomics"
+    },
+    {
+      "label": "Audiobook",
+      "link": "https://www.youtube.com/watch?v=7m0ufzqju_4&t=1s"
+    }
+  ],
+  "translations": [
+    {
+      "language": "Chinese",
+      "link": "/pdf/greenpill-translations/greenpill-chinese.pdf"
+    },
+    {
+      "language": "French",
+      "link": "/pdf/greenpill-translations/greenpill-french.pdf"
+    },
+    {
+      "language": "Hindi",
+      "link": "/pdf/greenpill-translations/greenpill-hindi.pdf"
+    },
+    {
+      "language": "Indonesian",
+      "link": "/pdf/greenpill-translations/greenpill-indonesian.pdf"
+    },
+    {
+      "language": "Italian",
+      "link": "/pdf/greenpill-translations/greenpill-italian.pdf"
+    },
+    {
+      "language": "Japanese",
+      "link": "/pdf/greenpill-translations/greenpill-japanese.pdf"
+    },
+    {
+      "language": "Korean",
+      "link": "/pdf/greenpill-translations/greenpill-korean.pdf"
+    },
+    {
+      "language": "Russian",
+      "link": "/pdf/greenpill-translations/greenpill-russian.pdf"
+    },
+    {
+      "language": "Persian",
+      "link": "/pdf/greenpill-translations/greenpill-persian.pdf"
+    },
+    {
+      "language": "Portuguese",
+      "link": "/pdf/greenpill-translations/greenpill-portuguese.pdf"
+    },
+    {
+      "language": "Spanish",
+      "link": "/pdf/greenpill-translations/greenpill-spanish.pdf"
+    },
+    {
+      "language": "Turkish",
+      "link": "/pdf/greenpill-translations/greenpill-turkish.pdf"
+    }
+  ],
+  "group": "main",
+  "sortOrder": 8
+}

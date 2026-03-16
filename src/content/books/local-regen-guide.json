@@ -1,0 +1,14 @@
+{
+  "title": "Local Regen Guide",
+  "description": "Local regen guide is focused on teaching engaging new ways to regenerate your local community.",
+  "image": "/images/local-regen-guide.jpeg",
+  "imageAlt": "Local Regen Guide",
+  "imageWidth": 1000,
+  "imageHeight": 1409,
+  "imageStyle": "border: 1px solid var(--yellow);",
+  "ebookLink": "/pdf/local-regen-guide.pdf",
+  "formats": [],
+  "translations": [],
+  "group": "bonus",
+  "sortOrder": 13
+}

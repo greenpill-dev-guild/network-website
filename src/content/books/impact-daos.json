@@ -1,0 +1,24 @@
+{
+  "title": "Impact DAOs",
+  "description": "Impact DAOs (2022) is about web3 projects with a positive impact on the world.",
+  "image": "/images/impactdao-cover.png",
+  "imageAlt": "ImpactDAOs book cover",
+  "imageWidth": 244,
+  "imageHeight": 300,
+  "imageStyle": "",
+  "ebookLink": "/pdf/ImpactDAO.pdf",
+  "formats": [
+    {
+      "label": "Softcover",
+      "link": "https://www.blurb.com/b/11120667-impactdaos"
+    }
+  ],
+  "translations": [
+    {
+      "language": "Chinese",
+      "link": "/pdf/impact-daos/impact-daos-chinese.pdf"
+    }
+  ],
+  "group": "main",
+  "sortOrder": 6
+}
